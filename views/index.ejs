@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS s3 image uploading</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+
+<body>
+    <h1 class="server-message">Server message: <span><%=message%></span></h1>
+    <div>
+        <input type="file" accept="image/*">
+        <button class="send-btn">Send</button>
+    </div>
+    <h1 class="section-text">
+        Images uploaded by user:
+
+    </h1>
+    <div id="imageContainer">
+
+    </div>
+    <h1 class="server-res-text">Server's response</h1>
+
+    <section>
+    </section>
+    <script src="/js/manipulate-fetch.js"></script>
+
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
